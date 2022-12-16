@@ -1,0 +1,95 @@
+.gigant_container {
+    width: 100%;
+    height: 570px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 10px 0; */
+    padding: 10rem 0px;
+    /* margin-top: 10rem; */
+}
+
+.car_types {
+    width: 1080px;
+    height: 312px;
+    background-color: #F1F2F3;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px;
+    flex-wrap: wrap;
+    border-radius: 8px;
+}
+
+.cars {
+    width: 20%;
+    height: auto;
+    list-style: none;
+    text-decoration: none;
+    padding: 0px 20px;
+    margin-bottom: 12px;
+}
+
+.cars li {
+    color: #0067B8;
+    font-family: sans-serif;
+    /* font-weight: 20px; */
+    font-size: 15px;
+}
+
+.header {
+    padding: 10px 0px;
+}
+
+.news_latter {
+    width: 1080px;
+    height: 300px;
+    background-color: #F1F2F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.wrapper {
+    width: 738px;
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.newspaper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.input {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.submit {
+    width: 300px;
+    height: 40px;
+    background-color: #6C757D;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: #FBB900;
+}
